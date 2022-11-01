@@ -91,7 +91,8 @@ body {
 }
 
 .demo__item_type_translate:hover .demo__icon {
-    transform: translate(10px, 0);    
+    transform: translate(10px, 0);
+    transition: transform 0.4s ease-out;
 }
 
 .demo__item_type_rotate:hover .demo__icon {
